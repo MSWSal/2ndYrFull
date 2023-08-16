@@ -1,0 +1,255 @@
+body{
+    margin: 0rem 13rem;
+}
+
+/* ---------------------nav--------------------- */
+div.navbar {
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    background-color: #FFD1D1;
+    justify-content: space-between;
+    /* box-shadow: 0px 3px 10px grey; */
+}
+
+div.nleft {
+    margin-left: 1rem;
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+/* div.imge {
+    display: flex;
+    
+    height: 6rem;
+    width: 6rem;
+    margin-left: 1.5rem;
+}*/
+
+img.logo {
+    width: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+/*div.vbar {
+    height: 6rem ;
+}*/
+
+div.blink   {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: "Poppins";
+    padding: 0rem;
+}
+
+div.phi {
+    margin-bottom: 10px;
+}
+
+div.nright {
+    margin-right: 3rem;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.name {
+    margin-right: 2rem;
+    margin-bottom: 7px;
+}
+
+img.shut {
+    width: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+div.camptitle {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+
+div.imge {
+    padding-right:1rem;
+
+}
+
+
+/* a:hover{
+    font-size: 2.2rem;
+
+} */
+
+
+
+/* ---------------------nav end----------------- */
+div.section{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.content{
+    width: 92%;
+    /* height: 5rem; */
+    /* background-color: rgb(239, 21, 58); */
+}
+
+div.ttl,div.stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+div.ttlmain{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+div.canarea {
+    width: 60rem;
+    height: 25rem;
+    /* background-color: #ffffff; */
+    /* box-shadow: 0px 3px 10px grey; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    margin: auto;
+    text-align: center;
+    /* background-color: lightgray; */
+  }
+
+  div.chrtarea{
+    margin-top: 2rem;
+
+  }
+
+  .g{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+
+  div.dash{
+    width: 100%;
+    border-top: black dashed;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  div.name{
+    width: 15rem;
+  }
+
+  div.val{
+    margin-left: 2rem;
+  }
+
+  div.bldtypeamnts{
+    font-size: 1.5rem;
+
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div.btypes{
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.amnts{
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.type{
+    width: 3rem;
+  }
+
+  div.btype{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+
+  }
+  p{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  div.signs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+  div.dashsign{
+    font-size: 1.5rem;
+    width: 15rem;
+    border-top: black dashed;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  button{
+    position: fixed;
+    font-family: "Poppins" !important;
+    transition: background-color 0.5s ease;
+
+
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-left: -7.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FD9F9F;
+  }
+
+  button:hover{
+    background-color:rgb(246, 41, 41);
+    color:white;
+  }
+
+  div.dashlast{
+    width: 100%;
+    border-top: black dashed;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+  }
+
+  div.textbox{
+    width: 100%;
+    height: 20rem;
+
+    border: 1px solid black;
+    border-radius: 0.3rem;
+  }

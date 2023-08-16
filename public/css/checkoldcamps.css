@@ -1,0 +1,60 @@
+/* .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100%; 
+} */
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+    
+}
+
+
+
+.map{
+    height: 45rem;
+    width: 60rem;
+    margin-left: 20rem;
+}
+
+input.jssearch{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+input.search{
+    font-family: "Poppins" !important;
+    transition: background-color 0.5s ease;
+
+
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+div.search{
+    position: absolute;
+    right: 5rem;
+    top: 30rem;
+}
+.search:hover {
+    color:white;
+}
+
+h3.topic{
+    position: absolute;
+    right: 10.7rem;
+    top: 26rem;
+}
+/* .sec1{
+    
+    margin-left: 20rem;
+} */

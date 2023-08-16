@@ -1,0 +1,95 @@
+body {
+    background-color: #f5f5f5;
+    font-family: "Poppins";
+
+}
+
+
+form {
+    width: 100rem;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.5rem;
+
+}
+
+label {
+    display: inline-block;
+    width: 17rem;
+    margin-bottom: 10px;
+
+}
+
+.d2,
+.d3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.citY{
+    /* margin-left: 3rem; */
+    padding-left: 3rem;
+}
+
+
+
+.Bname {
+    margin-top: 1rem;
+    width: 28rem;
+    height: 2rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #b1b1b1;
+    border-radius: 0.6rem;
+    background: #ffecec;
+
+}
+
+
+.street-in {
+    width: 80rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #b1b1b1;
+    border-radius: 0.6rem;
+    background: #ffecec;
+}
+
+
+.d2-id,
+.d2-tel,
+.d3-no,
+.d3-city {
+    width: 28rem;
+    margin-right: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #b1b1b1;   
+    border-radius: 0.6rem;
+    background: #ffecec;
+}
+
+.loc {
+    width: 80rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-left: 16.5rem;
+}
+
+.map-in {
+    width: 50rem;
+    height: 20rem;
+
+    background: #ffecec;
+    border-radius: 10px;
+    border: 1px solid #7e7e7e;
+    margin-left: 16.5rem;
+}
+
+.map {
+    text-align: center;
+}
+

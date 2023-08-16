@@ -1,0 +1,125 @@
+div.heading {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+div.heading {
+    padding-left: 1.5rem;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+}
+
+div.exnav{
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 90%;
+    min-height: 20rem;
+    /* background-color: aqua; */
+}
+
+div.row,div.rows,div.rowshort{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+div.rows,div.row{
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+input{
+    width: 85%;
+    padding-left: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+
+}
+
+input#bb,input#age,input#weight,input#email,input#tel,input#nic,input#id,input#def{
+    padding-left: 1rem;
+
+    width: 70%;
+
+}
+div.rowshort{
+    width: 50%;
+}
+
+div.q{
+    width: 10rem;
+}
+
+div.colon{
+    padding-right: 2rem;
+}
+
+div.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+    
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+button:hover {
+    background-color:darkred;
+    color:white;
+}
+
+
+/* ----------------------opt------------------- */
+
+div.formbox{
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.dash{
+    width: 100%;
+    padding-top: 2rem;
+    border-bottom:  2px black dashed;
+}
+
+input#r,input#w,input#plt,input#plsm,select#bb{
+    padding-left: 1rem;
+
+    width: 70%;
+
+}
+
+select{
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}

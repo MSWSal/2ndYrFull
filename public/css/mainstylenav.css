@@ -1,0 +1,302 @@
+div.sidebar {
+    background-color: #FD9F9F;          
+    width: 15rem;
+    height: 100vh;
+    margin-left: 0rem;
+    position: fixed;
+    transition:  0.2s ;
+
+   /* display: flex;
+    height: 1117px;
+    width: 330px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+div.exsdbar {
+            
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    
+    /* opacity: 50%; */
+    /* margin-left: 15rem; */
+    transition: 0.2s;
+
+   /* height: 173px;
+   
+    width: 1398px;*/
+
+}
+
+
+
+
+
+div.l1 {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    display: flex;
+    padding-left: 0.5rem;
+    /* flex-direction: column; */
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    align-items: center;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    /* border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
+    border-radius: 0.5rem;
+}
+
+.l11:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+}
+
+.l11:hover .l11img{
+    visibility: hidden;
+}
+
+.l12:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+    cursor: pointer;
+
+
+}
+.l12:hover .l12img{
+    visibility: hidden;
+}
+
+.l13:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+.l13:hover .l13img{
+    visibility: hidden;
+}
+
+.l14:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+    cursor: pointer;
+
+}
+.l14:hover .l14img{
+    visibility: hidden;
+}
+
+.l21:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+.l21:hover .l21img{
+    visibility: hidden;
+}
+
+
+div.das {
+    font-size: 1.3rem;
+}
+
+/* div.das:hover {
+    font-size: 1.6rem;
+} */
+
+div.l14{
+    height: 4rem;
+}
+/* other */
+
+/* div.sidebar {
+    width:14rem;
+    height: 100vh;
+
+} */
+
+div.l1, div.l2 {
+    padding-left:0.8rem
+}
+
+
+
+/* div.blinkphi {
+    
+} */
+
+
+
+
+
+
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    align-items:center;
+}
+
+.dasimg, .ugimg, .bdimg, .blimg, .acimg {
+    height:1.7rem;
+    padding-top:2px;
+}
+
+div.das {
+    padding-left:3px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+.chk{
+    display: none;
+    z-index: 4;
+}
+
+/* -----------------hide side bar------------- */
+
+label #sidebar_btn{
+    z-index: 1;
+    color: #000000;
+    position: fixed;
+    cursor: pointer;
+    margin-top: 1.9rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    
+}
+
+#check:checked ~ .sidebar{
+    margin-left: -15rem;
+    /* transform: translateX(-15rem); */
+}
+
+
+
+#check:checked ~ .exsdbar{
+    margin-left: 0rem;
+
+
+}
+
+#check:checked ~ .nleft{
+    margin-left: 4rem;
+}
+
+/* ============box============= */
+
+div.box{
+    z-index: 1;
+    background-color: #FD9F9F;
+    opacity: 85%;
+    position: fixed;
+    border-radius: 0.3rem;
+    margin-top: 19rem;
+    margin-left: 16rem;
+    font-size: 2rem;
+    height: 5rem;
+    max-width: 0rem;
+    overflow: hidden;
+    transition: max-width 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.box.open{
+    max-width: 20rem;
+
+}
+
+div.hid{
+    /* z-index: 1;
+    opacity: 85%;
+    position: fixed;
+    border-radius: 0.3rem;
+    margin-top: 19rem;
+    margin-left: 16rem; */
+    /* background-color: #c91414; */
+    margin-left: 3rem;
+    margin-top: -1rem;
+    font-size: 1rem;
+    width:75%;
+    max-height: 0rem;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+div.hid.open{
+    max-height: 4.5rem;
+
+}
+
+div.hid2{
+    /* z-index: 1;
+    opacity: 85%;
+    position: fixed;
+    border-radius: 0.3rem;
+    margin-top: 19rem;
+    margin-left: 16rem; */
+    /* background-color: #c91414; */
+    margin-left: 3rem;
+    margin-top: -1rem;
+    font-size: 1rem;
+    width:75%;
+    max-height: 0rem;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+div.hid2.open{
+    max-height: 7rem;
+
+}
+
+div.bs{
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.bs:hover {
+    background-color: rgb(99, 18, 18);
+    color: white;
+
+}
+
+div.hidsub{
+    background-color: #FD9F9F;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0rem ;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.5s ease;
+
+    /* padding-left: 3rem; */
+    font-size: 1.2rem;
+}
+
+.hidsub:hover{
+    background-color: rgb(99, 18, 18);
+    color: white;
+}
+.hidsub:hover i{
+    visibility: hidden;
+}

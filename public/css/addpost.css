@@ -1,0 +1,502 @@
+.sec1 {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 7rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sec1-h {
+    margin-left: 4rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.add-btn {
+    height: 1.5rem;
+    width: 5rem;
+    margin-right: 4rem;
+}
+
+.sec2 {
+    width: 90%;
+    height: 34rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 2rem; */
+}
+
+.sec2-1 {
+    width: 25%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 6rem;
+}
+
+.sec2-2 {
+    width: 40rem;
+
+}
+
+.inp1 {
+    width: 32rem;
+    height: 2rem;
+    background: #F3F3F3;
+    border-radius: 0.5rem;
+}
+
+.form-item {
+    margin-top: 0.7rem;
+    height: 7rem;
+}
+
+.form-item-location {
+    margin-top: 0.7rem;
+    margin-bottom: -2rem;
+}
+
+.inp2 {
+    width: 32rem;
+    height: 8rem;
+    background: #F3F3F3;
+    border-radius: 0.5rem;
+}
+
+.add_camp_pic {
+    height: 25rem;
+    width: 25rem;
+
+    border-style: dashed;
+}
+
+.file_form {
+    width: 32rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin-right: 6rem; */
+    /* margin-bottom: 4rem; */
+}
+
+.file {
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+}
+
+.save {
+    border: none;
+    height: 1.5rem;
+    width: 7rem;
+    background: #D9D9D9;
+    border-radius: 0.5rem;
+}
+
+.inp1 {
+    padding-left: 0.7rem;
+}
+
+.inp2 {
+    padding-left: 0.7rem;
+    padding-top: 0.7rem;
+}
+
+.sec2-2 {
+    width: 30%;
+    /* height: 40rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.addBtn {
+    height: 2.5rem;
+    border: none;
+    width: 6.5rem;
+    background: #FFB4B4;
+    border-radius: 0.5rem;
+    margin-right:80rem;
+    margin-top: 14rem;
+}
+/* .sec2-btn {
+    height: 5rem;
+    width: 5rem;
+    margin-top: 23rem;
+    margin-right:80rem;
+} */
+
+
+
+.labelLoc {
+    margin-right: 29rem;
+    margin-top: 20rem;
+   
+}
+
+/* popup css */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.pickLocation {
+    height: 3rem;
+    width: 5rem;
+    background-color: #FFB4B4;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 1000px;
+    max-width: 80%;
+    height: 800px;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* end of popup */
+
+/* map css */
+.map {
+    height: 500px;
+    width: 800px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 0.025rem solid rgb(119, 119, 119);
+    background-color: #ededed;
+    cursor: pointer;
+    border-radius: 15px;
+
+    font-family: "Poppins";
+}
+
+input[type="file"]:hover {
+    background-color: #ddd;
+}
+
+
+input[type=file]::file-selector-button {
+    border: none;
+    color: #6c6c6c;
+    font-size: 1.5rem;
+} */
+
+
+
+
+
+.d2-id,
+.d2-tel,
+.d3-no,
+.d4-map {
+    margin-right: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #b1b1b1;
+    border-radius: 0.6rem;
+}
+
+.d3-city,
+.d4-street {
+    border-radius: 0.6rem;
+    margin-bottom: 0rem;
+}
+
+.lable22{
+    margin-bottom: 0.5rem;
+}
+
+.Bname {
+    width: 50rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #b1b1b1;
+    border-radius: 0.6rem;
+
+}
+
+.form-item{
+    padding-bottom: 18px;
+}
+
+.input {
+    border-radius: 15px;
+
+    font-family: "Poppins";
+margin-top: 1rem;
+    margin-bottom: 0.1rem;
+    padding-left: 0.8rem;
+    height: 2.5rem;
+    width: 38rem;
+    border: 0.025rem solid rgb(119, 119, 119);
+    background-color: #ededed;
+}
+
+.pw{
+    height: 12rem;
+    padding: 1rem;
+}
+
+.ss{
+    margin-left: 8rem;
+}
+
+.qw{
+    width: 43rem;
+    
+}
+
+.sele{
+    height: 3rem;
+    font-size: 1rem;
+    padding-right: 1rem;
+    margin: 0rem;
+    width: 21rem;
+}
+
+.btn-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #FF8080;
+    border-radius: 15px;
+    height: 55px;
+    width: 350px;
+    border: none;
+    align-self: center;
+}
+
+.getting-started {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #0c0b0b;
+}
+
+.forget-password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.small {
+    margin-top: 1rem;   
+}
+
+.check {
+    width: 5rem;
+    height: 2rem;
+}
+
+.form-item.success>input {
+    border: 0.2rem solid #4bc03c;
+}
+.form-item.success>textarea {
+    border: 0.2rem solid #4bc03c;
+}
+/* .file_form.success>input {
+    border: 0.2rem solid #4bc03c;
+} */
+
+
+
+.form-item.error input {
+    border: 0.2rem solid #fc432e;
+}
+.form-item.error textarea {
+    border: 0.2rem solid #fc432e;
+}
+/* .file_form.error input {
+    border: 0.2rem solid #fc432e;
+} */
+
+
+input:focus {
+    outline-color: #b1b3b5;
+}
+
+.form-item,
+.f12 {
+    margin-bottom: 2.1rem;
+    position: relative;
+    color: #000000;
+    height: 10rem;
+
+}
+
+
+.f12>i {
+    position: absolute;
+    right: -2rem;
+    top: 1.2rem;
+    visibility: hidden;
+}
+
+.f12>small {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+.name,
+.nic,
+.city,
+.f,
+.f12 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+input:hover {
+    border: 0.045rem solid #001ec5;
+}
+
+#register:hover {
+    background-color: rgb(255, 255, 255);
+    color: #98C03C;
+}
+
+
+.form-item>small {
+    position: absolute;
+    margin-top: 0.2rem;
+    top: 1rem;
+    left: -0.2rem;
+    visibility: hidden;
+}
+
+/* .file_form>small {
+    position: absolute;
+    margin-top: 0.2rem;
+    top: 1rem;
+    left: -0.2rem;
+    visibility: hidden;
+} */
+
+::placeholder {
+    color: #b1b3b5;
+    opacity: 1;
+}
+
+
+.form-item.error small,
+.f12.error small {
+    visibility: visible;
+    color: #ec4532;
+}
+
+/* .file_form.error small,
+.f12.error small {
+    visibility: visible;
+    color: #ec4532;
+} */
+
+
+@media all and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+textarea{
+    height: 3rem;
+}

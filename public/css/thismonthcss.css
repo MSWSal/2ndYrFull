@@ -1,0 +1,165 @@
+div.tbl{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    /* margin-left: 4rem;
+    margin-top: 1rem; */
+    box-shadow: 0px 3px 10px grey;
+    background-color: #ffffff;
+    /* opacity: 90%; */
+    /* overflow: hidden; */
+    border-radius: 1rem;
+    /* height: 27rem; */
+    min-height: 40rem;
+
+}
+
+
+table {
+    width:96%;
+    margin:25px auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align:center;
+    margin-bottom: 1.5rem;
+    font-size:1.4rem;
+}
+
+tr{
+    height: 2rem;
+}
+td {
+    text-align:center;
+    padding:5px;
+}
+
+tr.hov:hover{
+    background-color: #efe8e8;
+}
+
+td.green{
+    background-color: #00ff2a;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+
+
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+    
+}
+
+
+
+
+
+
+
+
+
+div.section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+div.camptitle {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+div.campaign {
+    font-size:2rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+
+
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+
+
+/* --------------Pagination-------- */
+
+div.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.pagin{
+    /* width: 2rem;
+    height: 2rem; */
+    margin: 1rem 1rem;
+    /* background-color: #FFD1D1; */
+}
+
+button.pagebtn{
+    font-family: "Poppins" !important;
+    height: 2rem;
+    width: 3rem;
+    border-radius: 0.7rem;
+    /* margin-right: 1rem; */
+    border: none;
+    background-color: #ff4d4d;
+    color: #ffffff;
+
+}
+
+.pagebtn:hover {
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+
+
+
+
+/* ----------------------------back arrow-------------------------- */
+/* div.backarr{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+ } */
+
+ img.barr{
+    padding-top: 0.5rem;
+    height: 2rem;
+    /* width: 2rem; */
+ }
+
+
+ 
+
+
+
+
+
+
+
+

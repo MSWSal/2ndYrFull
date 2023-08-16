@@ -1,0 +1,51 @@
+.sec2 {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.progress-btn {
+
+    /* margin-left: 31%; */
+    width: 12%;
+    height: 3rem;
+    border: none;
+    background: #eeeaea;
+    border-radius: 0.3rem;
+}
+
+.upcoming-btn {
+    /* margin-right: 38%; */
+    width: 12%;
+    height: 3rem;
+    border: none;
+    background: #eeeaea;
+    border-radius: 0.3rem;
+}
+.mycamps-btn {
+    /* margin-right: 31%; */
+    width: 12%;
+    height: 3rem;
+    border: none;
+    background: #eeeaea;
+    border-radius: 0.3rem;
+}
+.selected{
+    background: #FFB4B4;
+}
+.map{
+    height: 45rem;
+    width: 35rem;
+    margin-bottom: 5rem;
+}
+.nocamps{
+    position: absolute;
+    top:50%;
+    right: 45%;
+    /* height: 15rem;
+    width: 15rem; */
+}

@@ -1,0 +1,123 @@
+div.tbl{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    /* margin-left: 4rem;
+    margin-top: 1rem; */
+    box-shadow: 0px 3px 10px grey;
+    background-color: #ffffff;
+    /* opacity: 90%; */
+    /* overflow: hidden; */
+    border-radius: 1rem;
+    /* height: 27rem; */
+    min-height: 40rem;
+
+}
+
+
+table {
+    width:96%;
+    margin:25px auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align:center;
+    margin-bottom: 1.5rem;
+    font-size:1.4rem;
+}
+
+tr{
+    height: 2rem;
+}
+td {
+    text-align:center;
+    padding:5px;
+}
+
+tr.hov:hover{
+    background-color: #efe8e8;
+}
+
+td.green{
+    background-color: #00ff2a;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+
+
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+    
+}
+
+
+
+div.camptitle {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+div.campaign {
+    font-size:2rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+
+
+ /* ------------------------onetimeui--------------------- */
+
+ img.onetimg{
+    height: 2rem;
+    padding-right: 0.5rem;
+ }
+ 
+ div.newbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ button.btnonet {
+    font-family: "Poppins" !important;
+    transition: background-color 0.5s ease;
+
+
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    border: none;
+    background-color: #FD9F9F;
+    
+}
+.btnonet:hover {
+    background-color:rgb(246, 41, 41);
+    color:white;
+}
+
+ 
+
+
+
+
+
+
+
+

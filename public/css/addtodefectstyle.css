@@ -1,0 +1,142 @@
+div.heading {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+div.heading {
+    padding-left: 1.5rem;
+}
+body{
+    margin: 0rem;
+    font-family: Poppins;
+}
+
+div.exnav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 90%;
+    /* background-color: aqua; */
+}
+
+div.formcontrol{
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: rgb(24, 78, 78); */
+    margin-top: 2rem;
+
+}
+
+div.q{
+    width: 10rem;
+}
+
+div.colon{
+    margin-right: 5rem;
+}
+
+div.in{
+    width: 100%;
+
+}
+
+input,select{
+    width: 80%;
+    height: 2rem;
+    padding-left: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+select{
+    width: 10%;
+    height: 2rem;
+    padding-left: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+textarea{
+    width: 80%;
+    height: 8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #FD9F9F;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color:darkred;
+    color:white;
+}
+
+/* valid */
+
+.formcontrol.error textarea{
+    border-color: rgb(250, 7, 7);
+}
+
+.formcontrol.success textarea{
+    border-color: rgb(7, 250, 7);
+}
+
+.formcontrol.error select{
+    border-color: rgb(250, 7, 7);
+}
+
+.formcontrol.success select{
+    border-color: rgb(7, 250, 7);
+}
+
+.formcontrol small {
+    visibility:hidden;
+    /* padding-left:1rem;
+    color:red; */
+}
+
+.formcontrol.error small {
+    visibility:visible;
+    padding-left:1rem;
+    color:red;
+}
+
+.formcontrol  i{
+    visibility: hidden;
+    position:absolute;
+    padding-top:0.5rem;
+    padding-left:0.1rem
+}
+
+.formcontrol.success  i.fa-circle-check{
+    visibility: visible;
+    color:green;
+    padding-left:-2rem;
+}
+
+.formcontrol.error  i.fa-circle-exclamation{
+    visibility: visible;
+    color:red;
+    /* padding-left:-2rem; */
+}

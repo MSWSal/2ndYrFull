@@ -1,0 +1,448 @@
+div.formarea{
+    width: 90%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form.reqsendform{
+     width: 60%;
+    /*min-height: 20rem; */
+    margin: 3rem 4rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 10px grey; 
+    background-color: #ffffff;
+
+}
+
+div.formcontrol{
+    display: flex;
+    flex-direction: row;
+}
+
+div.doc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+input,select{
+    padding: 0.4rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+input.docname{
+    width: 60rem;
+   
+}
+
+input#docid,input#docbb,input#reqbb,input#reqdate,input#bldtype,input#bldgrp{
+    width: 20rem;
+    
+}
+
+div.didin{
+    padding-left: 4rem;
+}
+div.bbin{
+    padding-left: 4rem;
+}
+
+div.dashline{
+    padding-top: 2rem;
+    border-bottom: 1px dashed black;
+    width: 90%;
+    margin-bottom: 2rem;
+
+    /* margin-left: 3rem; */
+}
+
+div.bbpart{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 73rem;
+    /* width: 93.5%; */
+     /* gap: 19rem;  */
+}
+
+div.docnamein{
+    padding-left: 2rem;
+}
+
+div.reqbblbl{
+    padding-left: 1.7rem;
+}
+
+div.reqbbin{
+    padding-left: 1rem;
+}
+
+div.reqdin{
+    padding-left: 4rem;
+    padding-right: 1.5rem;
+}
+
+div.bld1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 73rem;
+    /* width: 93.5%; */
+     /* gap: 19rem;  */
+}
+
+div.bldtlbl{
+    padding-left: 1.7rem;
+}
+
+div.bldtin{
+    padding-left: 3rem;
+}
+
+div.bldgin{
+    padding-left: 4rem;
+    padding-right: 1.5rem;
+}
+
+div.bld2{
+    padding-top: 2rem;
+}
+
+
+/* valid */
+
+.formcontrol.error input{
+    border-color: rgb(250, 7, 7);
+}
+
+.formcontrol.success input{
+    border-color: rgb(7, 250, 7);
+}
+
+.formcontrol small {
+    visibility:hidden;
+    /* padding-left:1rem;
+    color:red; */
+}
+
+.formcontrol.error small {
+    visibility:visible;
+    padding-left:1rem;
+    color:red;
+}
+
+.formcontrol  i{
+    visibility: hidden;
+    position:absolute;
+    /* right:10px; */ 
+    padding-top:0.5rem;
+    padding-left:0.1rem
+}
+
+.formcontrol.success  i.fa-circle-check{
+    visibility: visible;
+    color:green;
+    padding-left:-2rem;
+}
+
+.formcontrol.error  i.fa-circle-exclamation{
+    visibility: visible;
+    color:red;
+    /* padding-left:-2rem; */
+}
+
+button {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+button.Addbtn{
+    height: 2rem;
+    width: 4rem;
+    margin-left: 6rem;
+
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+input.btns{
+    height: 2rem;
+    padding: 0rem;
+    width: 10rem;
+    margin: 0rem;
+    border-radius: 0.7rem;
+    /* margin-right: 2rem; */
+    border: none;
+    background-color: #FD9F9F;
+}
+
+.btns:hover{
+    background-color: red;
+    color: #f1f1f1;
+
+}
+
+div.button.sp{
+    padding-top: 1rem;
+}
+
+/* -----------------------popup-------------------- */
+
+	/* Style the button that opens the form */
+/* button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */
+
+/* Style the form container */
+#myForm {
+
+    
+    width: 400px;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the form input fields */
+  /* input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } */
+  
+  /* Style the form buttons */
+  /* .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+  } */
+  /* 
+  .btn:hover {
+    opacity: 0.8;
+  } */
+  
+  /* Style the close button */
+  .cancel {
+    background-color: #f44336;
+  }
+  
+  /* Position the form popup box */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .form-popup.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bt{
+    padding: 1rem 0rem;
+  }
+
+  .popin{
+    margin: 1rem 0rem;
+  }
+
+  .btn{
+    margin: 1rem 0rem;
+    background-color: #FD9F9F;
+
+  }
+
+/* ------------newly added------------- */
+  div.formbox{
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.dash{
+    width: 100%;
+    padding-top: 2rem;
+    border-bottom:  2px black dashed;
+}
+
+input#r,input#w,input#plt,input#plsm,select#bb{
+    padding-left: 1rem;
+
+    width: 70%;
+
+}
+
+select{
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+}
+
+
+
+
+div.heading {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+div.heading {
+    padding-left: 1.5rem;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+}
+
+div.exnav{
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+div.row,div.rows,div.rowshort{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+div.rows,div.row{
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+input{
+    width: 85%;
+    padding-left: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing:border-box;
+    resize: vertical;
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+
+}
+
+input#bb,input#age,input#weight,input#email,input#tel,input#nic,input#id,input#def{
+    padding-left: 1rem;
+
+    width: 70%;
+
+}
+div.rowshort{
+    width: 50%;
+}
+
+div.q{
+    width: 10rem;
+}
+
+div.colon{
+    padding-right: 2rem;
+}
+
+div.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+    
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+button:hover {
+    background-color:darkred;
+    color:white;
+}
+
+.Addbtnholder{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.err{
+    margin-left: 10rem;
+}
+
+/* ================================================== */
+div.bt {
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bt small {
+    visibility:hidden;
+    /* padding-left:1rem;
+    color:red; */
+}
+
+.bt.error small {
+    visibility:visible;
+    padding-left:1rem;
+    color:red;
+}
+.bt.success small {
+    visibility:visible;
+    padding-left:1rem;
+    color:rgb(51, 255, 0);
+}

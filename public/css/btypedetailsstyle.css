@@ -1,0 +1,382 @@
+div.tbl{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    /* margin-left: 4rem;
+    margin-top: 1rem; */
+    box-shadow: 0px 3px 10px grey;
+    background-color: #ffffff;
+    /* opacity: 90%; */
+    /* overflow: hidden; */
+    border-radius: 1rem;
+    /* height: 27rem; */
+    min-height: 40rem;
+
+}
+
+
+table {
+    width:96%;
+    margin:25px auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align:center;
+    margin-bottom: 1.5rem;
+    font-size:1.4rem;
+}
+
+tr{
+    height: 2rem;
+}
+td {
+    text-align:center;
+    padding:5px;
+}
+
+tr.hov:hover{
+    background-color: #efe8e8;
+}
+
+td.green{
+    background-color: #00ff2a;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+
+
+
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdf;
+    font-family: "Poppins";
+    
+}
+
+
+
+
+
+
+
+
+div.section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.camptitle {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+div.campaign {
+    font-size:2rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+
+button.btns {
+    font-family: "Poppins" !important;
+
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    border: none;
+    background-color: #d6d6cd;
+    
+}
+
+
+
+
+
+div.l1 {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    display: flex;
+    padding-left: 0.5rem;
+    /* flex-direction: column; */
+    margin-bottom: 1.5rem;
+    align-items: center;
+    height: 3rem;
+    transition: background-color 0.5s ease;
+    border-radius: 0.5rem;
+    /* border-bottom-left-radius: 1rem; */
+}
+
+/* .l11:hover {
+    background-color: red;
+} */
+
+div.das {
+    font-size: 1.3rem;
+}
+
+/* div.das:hover {
+    font-size: 1.6rem;
+} */
+
+div.l14{
+    height: 4rem;
+}
+/* other */
+
+button
+
+/* div.sidebar {
+    width:14rem;
+    height: 100vh;
+
+} */
+
+div.l1, div.l2 {
+    padding-left:0.8rem
+}
+
+.blackline {
+    /*position: absolute;*/
+    left: 27.68rem;
+    height: 4rem;
+    width:2rem;
+    display: flex;
+    background-color: #000;
+    border-radius: 10px;
+    border: 0.2px solid #000000;
+   /* transform: rotate(-90deg);*/
+    align-items: center;
+    padding-left:2px;
+}
+
+/* div.blinkphi {
+    
+} */
+
+.vbar {
+    border-left: 3px solid black;
+    height:4rem;
+    padding-left:1rem;
+
+}
+
+div.imge {
+    padding-right:1rem;
+
+}
+
+.btn:hover {
+    background-color:rgb(246, 41, 41);
+    color:white;
+}
+
+div.upc {
+    background:rgb(107, 246, 107);
+    border-radius: 2rem;
+    padding:5px;
+}
+
+div.ong {
+    background:yellow;
+    border-radius: 2rem;
+    padding:5px;
+}
+
+div.rej {
+    background:rgb(250, 114, 114);
+    border-radius: 2rem;
+    padding:5px;
+}
+
+div.l11,div.l12, div.l13,div.l14,div.l21 {
+    align-items:center;
+}
+
+.dasimg, .ugimg, .bdimg, .blimg, .acimg {
+    height:1.7rem;
+    padding-top:2px;
+}
+
+div.das {
+    padding-left:3px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+a.fdetail {
+    text-decoration:none;
+    color:black;
+}
+
+
+
+/* ---------------Chart Parts only------------------------ */
+
+div.canarea {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    /* background-color: lightgray; */
+  }
+
+
+select.bbselect {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+    
+    border: #FD9F9F;
+    background-color: #FD9F9F;
+}
+
+option.bbopt1{
+    /* background-color: #e7dede; */
+    display: none;
+
+}
+
+option.bbopt{
+    background-color: #e7dede;
+    
+
+}
+
+button.bbsearch{
+    height: 2rem;
+    width: 9rem;
+    border-radius: 0.7rem;
+    margin-right: 6rem;
+    border: none;
+    background-color: #FD9F9F;
+}
+
+/* --------------Pagination-------- */
+
+div.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.pagin{
+    /* width: 2rem;
+    height: 2rem; */
+    margin: 1rem 1rem;
+    /* background-color: #FFD1D1; */
+}
+
+button.pagebtn{
+    font-family: "Poppins" !important;
+    height: 2rem;
+    width: 3rem;
+    border-radius: 0.7rem;
+    /* margin-right: 1rem; */
+    border: none;
+    background-color: #ff4d4d;
+    color: #ffffff;
+
+}
+
+.pagebtn:hover {
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+.bdcvbtn:hover {
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+
+
+
+
+div.navlinks{
+    width: 90%;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* overflow: hidden; */
+    
+}
+
+div.tocheck,div.checked,div.rejected{
+    width: 7rem;
+    height: 3rem;
+    /* box-shadow: 0px 3px 10px grey; */
+    background-color: #ffffff;
+    /* overflow: hidden; */
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+div.vreq,div.sreq,div.sendreq{
+    width: 8rem;
+    height: 3.5rem;
+    /* box-shadow: 0px 3px 10px grey; */
+    background-color: #ffffff;
+    /* overflow: hidden; */
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.activenav{
+    background-color: #fb7e7e;
+    font-size: 1.2rem;
+}
+
+div.cont{
+    text-align: center;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
